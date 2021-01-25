@@ -15,7 +15,7 @@ class Artist
     # new song with this artist as self
   end
 
-  def songs 
+  def songs
     # array of all of songs with this artist
   end
 
