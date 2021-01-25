@@ -1,4 +1,4 @@
-class Artist 
+class Artist
   attr_reader :name
   @@all = []
 
@@ -7,7 +7,7 @@ class Artist
     @@all << self
   end
 
-  def self.all 
-    @@all 
+  def self.all
+    @@all
   end
 end
