@@ -17,6 +17,7 @@ class Genre
   end
 
   def artists
+    songs.map {|s| s.artist}
     # collects each artist for every song in the main collect that has a matching genre
   end
 end
