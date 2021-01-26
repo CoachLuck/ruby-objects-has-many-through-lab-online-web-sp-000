@@ -18,7 +18,7 @@ class Artist
 
   def songs
     # array of all of songs with this artist
-    Songs.all.select {|s| s.artist = self}
+    Song.all.select {|s| s.artist = self}
   end
 
   def genres
