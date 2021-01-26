@@ -13,6 +13,7 @@ class Genre
 
   def songs
     # find all songs with matching genre
+    Song.all.select {|s| s.genre == name}
   end
 
   def artists
